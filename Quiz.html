@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<link rel="stylesheet" type="text/css" href="folha2.css">
+<link rel="stylesheet" type="text/css" href="folha.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+<link rel="manifest" href="/manifest.json">
+<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="img/lionicon.png"/>
+<meta name="theme-color" content="#FFA500">
+<title>Quiz</title>
+</head>
+<body>
+ <nav id="menu" class="menudiv">
+    <a href="javascript:void(0)" class="closebtt" onclick="closemenu()">&times;</a>
+    <a href="index.html" class="link">Início</a>
+    <a href="Pesquisa.html" class="link">Pesquisa</a>
+    <a href="Curiosidades.html" class="link">Curiosidades</a>
+    <a href="Cultura.html" class="link">Cultura</a>
+    <a href="Quiz.html" class="link">Quiz</a>
+ </nav>
+           
+<section class="contentquiz" id="body">
+        <span onclick="openmenu()" class="menuicon grey">&#9776;</span>
+        <h1 class="title">Quiz</h1>
+        <h2 class="text">Marque as alternativas corretas:</h2>
+        <form class="competencia6">
+            <label for="af1">O leão é o segundo maior mamífero do mundo</label>
+            <input type="checkbox" id="af1" name="teste1">
+            <br>
+            <label for="af2">Seu tamanho pode alcançar 5m</label>
+            <input type="checkbox" id="af2" name="teste1">
+            <br>
+            <label for="af3">Existem especies de leões por todo o mundo</label>
+            <input type="checkbox" id="af3" name="teste1">
+            <br>
+            <label for="af4">Os leões vivem em bandos</label>
+            <input type="checkbox" id="af4" name="teste1">
+            <br>
+            <label for="af5">Ao se tornar dominante o macho mata todos os filhotes do alpha antigo</label>
+            <input type="checkbox" id="af5" name="teste1">
+            <br>
+            <label for="af6">Estátuas de Leões são Proibidas</label>
+            <input type="checkbox" id="af6" name="teste1">
+            <br>
+            <label for="af7">Os leões podem engolir a boca de uma presa e os matar sufocados</label>
+            <input type="checkbox" id="af7" name="teste2">
+            <br>
+            <label for="af8">Leões voam</label>
+            <input type="checkbox" id="af8" name="teste2">
+            <br>
+            <label for="af9">Seu rugido pode ser escutado de até oito quilometros</label>
+            <input type="checkbox" id="af9" name="teste2">
+            <br>
+            <label for="af10">Quanto mais escura sua juba mais velho o leão é</label>
+            <input type="checkbox" id="af10" name="teste2">
+            <br>
+            <p id="gabarito"></p>
+            <button class="bttvalidar" type="button" id="acertos" onclick="contaropcoes()">Validar</button>
+         </form>
+</section>
+<footer class="rodape"><a class="footer-link" target="__blank" href="https://www.nationalgeographic.com/">National Geographic</a></footer>
+<script src="js/menu.js"></script>
+<script src="js/validarform.js"></script>
+</body>
+</html>
