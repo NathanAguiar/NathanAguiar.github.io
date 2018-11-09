@@ -1,0 +1,185 @@
+*{
+  margin:0;
+  padding: 0;
+  border:0;
+}
+.corpo {
+width:100vw;
+height:100vh;
+background-image: url("img/53404.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+background-position: center;
+
+
+
+}
+.cardtitle{
+  font-family: 'EB Garamond';
+
+}
+.headertext{
+  color:red;
+  font-size:10vw;
+  text-shadow: 1px 1px black;
+  font-family: 'Comic Sans MS';
+  transition: font-size 0.5s;
+  line-height: 50vh;
+  text-shadow: 3px 3px black;
+  text-align: center;
+}
+
+.headersupportext {
+  color: blue;
+  font-size:2vw;
+  text-shadow: 3px 3px black;
+  transition: font-size 0.5s;
+  font-family: 'Courier New';
+  text-align: center;
+}
+@font-face {
+    font-family: Hammerhead;
+    src: url("font/HAMMERHEAD.ttf");
+    font-family: 'Righteous', cursive;
+    font-family: 'Raleway';
+
+}
+.menudiv{
+  height: 100%;
+  width: 0%;
+  transition: 0.5s;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left: 0;
+  background-color:black;
+  overflow-x:hidden;
+  padding-top: 5vh;
+  text-align:center;
+  
+}
+.link{
+  display:block;
+  transition:0.5s;
+  text-decoration: none;
+  color: white;
+  padding:15%;
+  font-size:1vw;
+  font-family:"Comfortaa";
+  
+}
+.link:hover{
+  color: #d1d6d2;
+  background-color:grey;
+}
+.closebtt{
+  margin-left:5%;
+  font-size:3vw;
+  right:3%;
+  top:0;
+  position: absolute;
+  color:white;
+  text-decoration: none;
+}
+.closebtt:hover{
+  color:grey; 
+}
+.menuicon{
+  font-size:3vw;
+  color:white;
+  z-index: 1 ;
+  top:0;
+  right: 0;
+}
+.menuicon:hover{
+  color:grey;
+}
+#top{
+  transition: margin-left 0.5s;
+}
+.rodape{
+  background-color:#616161;
+  text-align:center;
+  width: 60vw;
+  margin-left:20%;
+  box-shadow: 35px 35px 35px 25px black;
+
+  
+}
+.footer-link{
+  color:white;
+  text-decoration: none;
+  transition:0.5s;
+}
+.footer-link:hover{
+  color:#000080;
+  text-decoration: none;
+  transition:0.5s;
+}
+
+@media(max-width:600px){
+  .corpo {
+    width:100vw;
+    height:100vh;
+    background-image: url("img/53404.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+    
+    
+    }  
+    .rodape{
+      background-color:#616161;
+      text-align:center;
+      width: 100vw;
+      margin-left:0;
+      box-shadow: 35px 35px 35px 25px black;
+    
+      
+    }
+  
+  
+  .headertext{
+      color:red;
+    font-size: 20vw;
+    text-shadow: 1px 1px black;
+    font-family: 'Comic Sans MS';
+    margin-top: 8vh;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    overflow-y: none;
+    }
+    .headersupportext {
+      color: blue;
+      font-size:8vw;
+      text-shadow: 3px 3px black;
+      transition: font-size 0.5s;
+      font-family: 'Courier New';
+      text-align: center;
+    }
+    .link{
+      display:block;
+      transition:0.5s;
+      text-decoration: none;
+      color: white;
+      padding:15%;
+      font-size:5vw;
+      font-family:"Comfortaa";
+      
+    }
+    .closebtt{
+      margin-left:5%;
+      font-size:20vw;
+      right:3%;
+      top:0;
+      position: absolute;
+      color:white;
+      text-decoration: none;
+    }
+    .menuicon{
+      font-size:15vw;
+    }
+}
